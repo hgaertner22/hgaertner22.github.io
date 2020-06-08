@@ -1,0 +1,140 @@
+body {
+    background-color: bisque;
+    font-family: sans-serif;
+    color: rgb(27, 27, 85);    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(27, 27, 85);    
+}
+
+a:hover {
+    color: rgb(44, 44, 168);
+}
+
+
+nav.top-nav {
+    background-color: #e69a36;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding-left: 2em;
+    box-shadow: 2px 2px;
+}
+
+
+nav.top-nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav.top-nav li {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: #fffd;
+    margin: 5px;
+    display: inline-block;
+    padding-top: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    user-select: none;
+    position: relative;
+}
+
+nav.top-nav a {
+    color: rgba(252, 239, 235, 0.959);
+}
+
+nav.top-nav a:hover {
+    color: rgba(196, 188, 187, 0.959);
+}
+
+.Project_list {
+    font-size: small;
+    text-align: center;
+    
+}
+
+
+.Project img{
+    margin-top: 18px;
+    vertical-align: middle;
+    height: 250px;
+    border: 20px solid rgb(27, 27, 85);
+    flex-wrap: wrap;
+}
+
+#Projects {
+    color: rgb(27, 27, 85);
+    margin: 50px;
+} 
+
+
+
+#Projects h1 {
+    padding-left: 100px;
+}
+
+.email {
+    padding: 50px;
+    vertical-align: middle;
+}
+
+.info img {
+    height: 250px;
+}
+
+.linkedin {
+    padding: 50px;
+    vertical-align: middle;
+}
+
+
+.project_info img{
+    height: 500px;
+    border: 15px solid white;
+}
+
+.project_info_paper {
+    margin-top: 30px;
+    margin-left: 50px;
+    float: left;
+    text-align: center;
+}
+
+.project_info p {
+    margin-left: 550px;
+    margin-top: 100px;
+    margin-right: 150px;
+    font-size: large;
+    text-align: justify;
+}
+
+.project_info h1 {
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+.about img {
+    height: 300px;
+    border: 20px solid rgb(27, 27, 85);
+    margin-top:30px;
+    margin-left: 50px;
+    float: left;
+}
+
+.about h1 {
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+.about p {
+    margin-left: 550px;
+    margin-top: 100px;
+    margin-right: 150px;
+    font-size: large;
+    text-align: justify;
+}
